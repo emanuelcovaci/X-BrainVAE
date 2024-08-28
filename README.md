@@ -3,6 +3,9 @@
 
 Our project is focused on assisting individuals with motor disabilities by exploring the potential of EEG (Electroencephalography) technology. Specifically, we aim to demonstrate that an EEG headset can detect when a person imagines moving their right or left arm, without any actual physical movements.
 
+![image](https://github.com/user-attachments/assets/1b93a296-52d1-47cb-a6ed-38b6062ca288)
+
+
 ## Problem Statement
 
 While we have successfully shown that a model can be trained to identify binary motor imagery (right or left imagined movement) with high accuracy for a single patient (88% accuracy on training and 76% on validation), a significant challenge remains: generalization across individuals.
