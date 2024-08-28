@@ -11,6 +11,8 @@ The primary challenge addressed in this project is the generalization of motor i
 ### 1. Building the Dataset from Raw Files (`build_raw_emotiv_dataset.ipynb`)
 This notebook is responsible for processing raw EEG data to generate a dataset that can be used for training and evaluating motor imagery classification models.
 
+Original dataset can be found [here](https://www.kaggle.com/code/gcdatkin/eeg-hand-movement-user-prediction) and a copy of the original raw dataset can be found [here]([/guides/content/editing-an-existing-page](https://github.com/emanuelcovaci/X-BrainNet/tree/main/dataset/emotiv/Dataset)).
+
 **Steps:**
 - Load raw EEG data files.
 - Save the processed data into a format suitable for model training.
