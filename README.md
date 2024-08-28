@@ -12,7 +12,8 @@ While we have successfully shown that a model can be trained to identify binary 
 
 Each person's brain waves are unique, which makes it difficult to apply a model trained on one person to another without significant loss of accuracy. The core challenge is to develop a model that is general enough to be used by different individuals with minimal calibration, thereby avoiding the need for retraining from scratch for each new user.
 ## Synthetic EEG Data Generation using VAE
-![image](https://github.com/user-attachments/assets/47aba804-d872-42b3-b4c4-c8a39be6c334)
+![image](https://github.com/user-attachments/assets/6161faf1-43bf-4f8a-8579-c8cf93f362a0)
+
 
 To address the challenge of individual variability in EEG signals, we propose the use of a **Variational Autoencoder (VAE)** to generate synthetic EEG data. VAEs are a type of generative model that can learn the underlying distribution of the data and generate new data points that are similar to the original ones.
 
