@@ -29,13 +29,12 @@ To address the challenge of individual variability in EEG signals, we propose th
 - **Bias Mitigation**: By generating diverse synthetic data, the VAE can help reduce biases that may arise from training on a limited or homogeneous dataset, leading to a more fair and inclusive model that performs well across different populations.
 - **Reduced Need for Retraining**: With a more generalizable model, the need for retraining on new users is minimized, making the technology more accessible and user-friendly.
 - **Data Augmentation**: The synthetic data can enhance the robustness of the model by providing additional training examples, especially in scenarios where real data is scarce or difficult to collect.
-
-
+## Requirements
+Run `pip install -r requirements.txt` in order to install the requirements for this project.
 ## How to Run
 
 In this repository, you will find three main notebooks that contain step-by-step instructions for each phase of the project:
-0. **Install requirements**
-   - Run `pip install -r requirements.txt` in order to install the requirements for this project
+
 1. **Building the Dataset from Raw Files**  
    - Run `build_raw_emotiv_dataset.ipynb` to generate the dataset needed for training and evaluation. This notebook processes the raw EEG data and prepares it for use in the classifier.
 
