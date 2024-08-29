@@ -34,7 +34,8 @@ To address the challenge of individual variability in EEG signals, we propose th
 ## How to Run
 
 In this repository, you will find three main notebooks that contain step-by-step instructions for each phase of the project:
-
+0. **Install requirements**
+   - Run `pip install -r requirements.txt` in order to install the requirements for this project
 1. **Building the Dataset from Raw Files**  
    - Run `build_raw_emotiv_dataset.ipynb` to generate the dataset needed for training and evaluation. This notebook processes the raw EEG data and prepares it for use in the classifier.
 
